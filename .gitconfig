@@ -1,0 +1,15 @@
+[credential]
+	helper = store
+
+[user]
+	name = luoxiaobatman
+	email = luoxiaobatman@gmail.com
+[fetch]
+	recurseSubmodules = false
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code -d $LOCAL $REMOTE
+[filter "gitignore"]
+	clean = "sed '/#gitignore$/'d"
+	smudge = cat
